@@ -1,0 +1,46 @@
+/* THEMA STYLE GUIDE */
+body { background: #fff; color: #444; font: 16px/1.5 "lato", Helvetica, Arial, sans-serif; margin-top: 50px;}
+.logo { width: 90px; margin-top: -5px; }
+.jumbotron { background-color: #0a345e; color: #fff; }
+
+a,
+a:visited { color: #888; }
+
+a:hover,
+a:focus { color: #000; }
+
+.menu-lateral-stop { margin-top: -250px; }
+
+
+#typography .font-preview-character { font-size: 90px; } 
+#typography .font-preview { font-size: 18px; padding: 20px } 
+#typography .font-preview-border { border-right: 2px #EFEFEF solid; }
+#typography .font-attribute { padding: 20px; }
+#typography .row { margin-bottom: 10px; }
+#typography .btn-download-font { margin-top: 15px; }
+#typography .btn-download-font i { margin-right: 5px; }
+#typography .Montserrat1 .font-preview-character, #typography .Montserrat1 .font-preview { font-family: "Montserrat", sans-serif; font-weight: 400; font-style: normal; }
+#typography .Montserrat2 .font-preview-character, #typography .Montserrat2 .font-preview { font-family: "Montserrat", sans-serif; font-weight: 700; font-style: normal; }
+#typography .lato1 .font-preview-character, #typography .lato1 .font-preview { font-family: "lato", sans-serif; font-weight: 300; font-style: normal; }
+#typography .lato2 .font-preview-character, #typography .lato1 .font-preview { font-family: "lato", sans-serif; font-weight: 300; font-style: italic; }
+#typography .lato3 .font-preview-character, #typography .lato1 .font-preview { font-family: "lato", sans-serif; font-weight: 400; font-style: normal; }
+#typography .lato4 .font-preview-character, #typography .lato1 .font-preview { font-family: "lato", sans-serif; font-weight: 400; font-style: italic; }
+#typography .lato5 .font-preview-character, #typography .lato1 .font-preview { font-family: "lato", sans-serif; font-weight: 700; font-style: normal; }
+#typography .lato6 .font-preview-character, #typography .lato1 .font-preview { font-family: "lato", sans-serif; font-weight: 700; font-style: italic; }
+
+
+
+
+
+
+#icons li { padding: 10px; background-color: #E3E3E3; height: 120px; margin-bottom: 5px; min-width: 120px; }
+#icons li:hover { background-color: #B0B0B0; cursor: text;}
+#icons li p { position: relative; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+#icons i { font-size: 20px; }
+
+
+#colors .box { padding: 10px; }
+#colors .box p { color: #fff; }
+
+
+
