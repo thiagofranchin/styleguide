@@ -9,7 +9,7 @@
   <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/saas/bootstrap.min.css" id="linkcss">
   <link rel="stylesheet" type="text/css" href="css/gaia-font-icons.css">    
   <link rel="stylesheet" type="text/css" href="css/lato-font.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -405,64 +405,128 @@
           <div class="box col-xs-3 bgColor19"><p>19. RGB<br>#b5b5b5</p></div>
           <div class="box col-xs-3 bgColor20"><p>20. RGB<br>#222222</p></div>
         </div>
+
+        <div class="col-xs-12 colors-vars">
+          <div class="col-xs-12 col-sm-4">
+            <h4>Family: SAAS</h4>
+            <ul class="list-unstyled">
+              <li>@brand-primary: #466d92</li>
+              <li>@brand-success: #00a2c2</li>
+              <li>@brand-info: #5bc0de</li>
+              <li>@brand-warning: #f0ad4e</li>
+              <li>@brand-danger: #d9534f</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h4>Family: Mkt Digital</h4>
+            <ul class="list-unstyled">
+              <li>@brand-primary: #466d92</li>
+              <li>@brand-success: #00a2c2</li>
+              <li>@brand-info: #5bc0de</li>
+              <li>@brand-warning: #f0ad4e</li>
+              <li>@brand-danger: #d9534f</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h4>Family: Remanescentes</h4>
+            <ul class="list-unstyled">
+              <li>@brand-primary: #466d92</li>
+              <li>@brand-success: #00a2c2</li>
+              <li>@brand-info: #5bc0de</li>
+              <li>@brand-warning: #f0ad4e</li>
+              <li>@brand-danger: #d9534f</li>
+            </ul>
+          </div>        
+        </div>
       </section>
 
-
+      <div><h3>&nbsp;</h3></div><!-- Gamb -->
 
       <section id="buttons">
         <a name="/buttons"></a>
         <h1 class="page-header">Buttons</h1>
 
-        <h2>btn-sm</h2>
-        <button class="btn btn-sm text-uppercase lato btn-default">default</button>
-        <button class="btn btn-sm text-uppercase lato btn-primary">primary</button>
-        <button class="btn btn-sm text-uppercase lato btn-success">success</button><br><br>
-        <ul>
-          <li>Font-family: Lato (bold)</li>
-          <li>text-uppercase </li>
-          <li>height: 30px; min-width: 110px; </li>
-          <li>font-size: 12px; </li>
-          <li>border-radius: 2px;</li>
-        </ul>
-        <hr>
+        <div class="row">
+          <div class="col-xs-12 menu-marcas">
+            <div class="col-xs-12 col-sm-4 saas" newclass="saas">
+              <h2>SAAS</h2>
+              <ul>
+                 <li>inGaiaImob</li>
+                 <li>inGaiaCorretor</li>
+                 <li>inGaiaRede</li>
+                 <li>inGaiaLocação</li>
+               </ul>             
+            </div>
+            <div class="col-xs-12 col-sm-4 mkt-digital" newclass="mkt-digital">
+              <h2>Mkt Digital</h2>
+                <ul>
+                 <li>inGaiaImob</li>
+                 <li>inGaiaCorretor</li>
+                 <li>inGaiaRede</li>
+               </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 remanescentes" newclass="remanescentes">
+              <h2>Remanescentes</h2>
+              <ul>
+                 <li>inGaiaIncorp</li>
+               </ul>
+            </div>            
+          </div>  
+        </div>
 
-        <h2>btn (Default)</h2>
-        <button class="btn text-uppercase lato default1 btn-default">default</button>
-        <button class="btn text-uppercase lato default1 btn-primary">primary</button>
-        <button class="btn text-uppercase lato default1 btn-success">success</button><br><br>
-        <ul>
-          <li>Font-family: Lato (bold)</li>
-          <li>text-uppercase </li>
-          <li>height: 38px; min-width: 110px; </li>
-          <li>font-size: 14px; </li>
-          <li>border-radius: 2px;</li>
-        </ul>
-        <hr>
+        <div class="btn-types">
 
-        <h2>btn (Default 2)</h2>
-        <button class="btn text-uppercase lato default2 btn-default">default</button>
-        <button class="btn text-uppercase lato default2 btn-primary">primary</button>
-        <button class="btn text-uppercase lato default2 btn-success">success</button><br><br>
-        <ul>
-          <li>Font-family: Lato (bold)</li>
-          <li>text-uppercase </li>
-          <li>height: 48px; min-width: 110px; </li>
-          <li>font-size: 16px; </li>
-          <li>border-radius: 2px;</li>
-        </ul>
-        <hr>
+          <h2>btn-sm</h2>
+          <button class="btn btn-sm text-uppercase lato btn-default">default</button>
+          <button class="btn btn-sm text-uppercase lato btn-primary">primary</button>
+          <button class="btn btn-sm text-uppercase lato btn-success">success</button><br><br>
+          <ul>
+            <li>Font-family: Lato (bold)</li>
+            <li>text-uppercase </li>
+            <li>height: 30px; min-width: 110px; </li>
+            <li>font-size: 12px; </li>
+            <li>border-radius: 2px;</li>
+          </ul>
+          <hr>
 
-        <h2>btn-lg Large</h2>
-        <button class="btn btn-lg text-uppercase lato large btn-default">default</button>
-        <button class="btn btn-lg text-uppercase lato large btn-primary">primary</button>
-        <button class="btn btn-lg text-uppercase lato large btn-success">success</button><br><br>
-        <ul>
-          <li>Font-family: Lato (bold) </li>
-          <li>text-uppercase </li>
-          <li>height: 63px; min-width: 120px;</li>
-          <li>font-size: 18px; </li>
-          <li>border-radius: 2px;</li>
-        </ul>         
+          <h2>btn (Default)</h2>
+          <button class="btn text-uppercase lato default1 btn-default">default</button>
+          <button class="btn text-uppercase lato default1 btn-primary">primary</button>
+          <button class="btn text-uppercase lato default1 btn-success">success</button><br><br>
+          <ul>
+            <li>Font-family: Lato (bold)</li>
+            <li>text-uppercase </li>
+            <li>height: 38px; min-width: 110px; </li>
+            <li>font-size: 14px; </li>
+            <li>border-radius: 2px;</li>
+          </ul>
+          <hr>
+
+          <h2>btn (Default 2)</h2>
+          <button class="btn text-uppercase lato default2 btn-default">default</button>
+          <button class="btn text-uppercase lato default2 btn-primary">primary</button>
+          <button class="btn text-uppercase lato default2 btn-success">success</button><br><br>
+          <ul>
+            <li>Font-family: Lato (bold)</li>
+            <li>text-uppercase </li>
+            <li>height: 48px; min-width: 110px; </li>
+            <li>font-size: 16px; </li>
+            <li>border-radius: 2px;</li>
+          </ul>
+          <hr>
+
+          <h2>btn-lg Large</h2>
+          <button class="btn btn-lg text-uppercase lato large btn-default">default</button>
+          <button class="btn btn-lg text-uppercase lato large btn-primary">primary</button>
+          <button class="btn btn-lg text-uppercase lato large btn-success">success</button><br><br>
+          <ul>
+            <li>Font-family: Lato (bold) </li>
+            <li>text-uppercase </li>
+            <li>height: 63px; min-width: 120px;</li>
+            <li>font-size: 18px; </li>
+            <li>border-radius: 2px;</li>
+          </ul>
+        </div><!-- /.btn-types -->         
       </section><!-- /#buttons -->
 
 

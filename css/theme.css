@@ -1,4 +1,4 @@
-/* THEMA STYLE GUIDE */
+/** THEMA STYLE GUIDE **/
 body { background: #fff; color: #444; font: 16px/1.5 "lato", Helvetica, Arial, sans-serif; margin-top: 50px;}
 .logo { width: 90px; margin-top: -5px; }
 .jumbotron { background-color: #0a345e; color: #fff; }
@@ -11,7 +11,7 @@ a:focus { color: #000; }
 
 .menu-lateral-stop { margin-top: -250px; }
 
-
+/** TYPOGRAPHY **/
 #typography .font-preview-character { font-size: 90px; } 
 #typography .font-preview { font-size: 18px; padding: 20px } 
 #typography .font-preview-border { border-right: 2px #EFEFEF solid; }
@@ -30,17 +30,35 @@ a:focus { color: #000; }
 
 
 
-
-
-
+/** ICONS **/
 #icons li { padding: 10px; background-color: #E3E3E3; height: 120px; margin-bottom: 5px; min-width: 120px; }
 #icons li:hover { background-color: #B0B0B0; cursor: text;}
 #icons li p { position: relative; left: 50%; top: 50%; transform: translate(-50%,-50%); }
-#icons i { font-size: 20px; }
+#icons i { font-size: 30px; }
 
-
+/** COLORS **/
 #colors .box { padding: 10px; }
 #colors .box p { color: #fff; }
+#colors .colors-vars li { font-size: 14px; }
+
+/** BUTTONS **/
+.saas { background-color: #00a2c2; }
+.mkt-digital { background-color: #9d72af; }
+.remanescentes { background-color: #f0545e; }
+
+#buttons .menu-marcas div { cursor: pointer; height: 169px; }
+
+#buttons .menu-marcas .saas:hover { border-top: solid 4px #005a6b; background-color: #008da9; }
+#buttons .menu-marcas .saas:hover h2 { margin-top: 16px; }
+
+#buttons .menu-marcas .mkt-digital:hover { border-top: solid 4px #714981; background-color: #845698;}
+#buttons .menu-marcas .mkt-digital:hover h2 { margin-top: 16px; }
+
+#buttons .menu-marcas .remanescentes:hover { border-top: solid 4px #da1320; background-color: #ec2532; }
+#buttons .menu-marcas .remanescentes:hover h2 { margin-top: 16px; }
+
+#buttons .menu-marcas h2, #buttons .menu-marcas li { color: #fff; }
+
 
 
 

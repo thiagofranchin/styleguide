@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=b5086d2f0fa4ac21abb16e86e0e3121d)
- * Config saved to config.json and https://gist.github.com/b5086d2f0fa4ac21abb16e86e0e3121d
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=0009c2cf085cf80f9b6b7464f2cee23a)
+ * Config saved to config.json and https://gist.github.com/0009c2cf085cf80f9b6b7464f2cee23a
  */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -3181,26 +3181,26 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #01a2c2;
-  border-color: #018da9;
+  background-color: #00a2c2;
+  border-color: #008da9;
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #ffffff;
-  background-color: #01788f;
-  border-color: #00232a;
+  background-color: #00778f;
+  border-color: #002229;
 }
 .btn-success:hover {
   color: #ffffff;
-  background-color: #01788f;
-  border-color: #015a6c;
+  background-color: #00778f;
+  border-color: #005a6b;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #01788f;
-  border-color: #015a6c;
+  background-color: #00778f;
+  border-color: #005a6b;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -3212,8 +3212,8 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #ffffff;
-  background-color: #015a6c;
-  border-color: #00232a;
+  background-color: #005a6b;
+  border-color: #002229;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3229,11 +3229,11 @@ fieldset[disabled] .btn-success:focus,
 .btn-success.disabled.focus,
 .btn-success[disabled].focus,
 fieldset[disabled] .btn-success.focus {
-  background-color: #01a2c2;
-  border-color: #018da9;
+  background-color: #00a2c2;
+  border-color: #008da9;
 }
 .btn-success .badge {
-  color: #01a2c2;
+  color: #00a2c2;
   background-color: #ffffff;
 }
 .btn-info {
@@ -4891,11 +4891,11 @@ a.label:focus {
   background-color: #355370;
 }
 .label-success {
-  background-color: #01a2c2;
+  background-color: #00a2c2;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #01788f;
+  background-color: #00778f;
 }
 .label-info {
   background-color: #5bc0de;
@@ -5171,7 +5171,7 @@ a.thumbnail.active {
   animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-success {
-  background-color: #01a2c2;
+  background-color: #00a2c2;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);

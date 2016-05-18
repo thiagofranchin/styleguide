@@ -1,18 +1,18 @@
-/* FONTS */
+/** FONTS **/
 .lato{ font-family: "lato"; }
 .navbar-inverse { border-radius: 0px; }
 
-/* FORMS */
+/** FORMS **/
 .form-control { height: 48px; }
 .form-control-feedback { line-height: 60px; }
 .form-control-default { height: 34px; } 
 
-/* BUTTONS */
+/** BUTTONS **/
 .default1 { height: 38px; }
 .default2 { height: 48px; min-width: 110px; font-size: 16px; }
 .large { height: 63px; min-width: 120px; }
 
-/* COLORS */
+/** COLORS **/
 .bgColor1 { background-color: #0a345e; }
 .bgColor2 { background-color: #00a2c2; }
 .bgColor3 { background-color: #9d72af; }
