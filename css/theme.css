@@ -42,9 +42,6 @@ a:focus { color: #000; }
 #colors .colors-vars li { font-size: 14px; }
 
 /** BUTTONS **/
-.saas { background-color: #00a2c2; }
-.mkt-digital { background-color: #9d72af; }
-.remanescentes { background-color: #f0545e; }
 
 #buttons .menu-marcas div { cursor: pointer; height: 169px; }
 
@@ -59,17 +56,6 @@ a:focus { color: #000; }
 
 #buttons .menu-marcas h2, #buttons .menu-marcas li { color: #fff; }
 
-/** UPLOAD DE ARQUIVOS **/
-.drop-box {
-  background: #FFFFFF;
-  border: 1px dashed #B6B6B6;
-  text-align: center;
-  padding: 50px 0;
-  margin-bottom: 30px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  cursor: pointer;
-}
+
 
 
