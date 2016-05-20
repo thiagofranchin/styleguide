@@ -6,6 +6,8 @@
 .form-control { height: 48px; }
 .form-control-feedback { line-height: 60px; }
 .form-control-default { height: 34px; } 
+.drop-box i { font-size: 70px; }
+
 
 /** BUTTONS **/
 .default1 { height: 38px; }
@@ -34,6 +36,26 @@
 .bgColor19 { background-color: #b5b5b5; }
 .bgColor20 { background-color: #222222; }
  
+.color1 { color: #0a345e; }
+.color2 { color: #00a2c2; }
+.color3 { color: #9d72af; }
+.color4 { color: #3cb185; }
+.color5 { color: #faaa5c; }
+.color6 { color: #f0545e; }
+.color7 { color: #2884b0; }
+.color8 { color: #5b469b; }
+.color9 { color: #9c69ac; }
+.color10 { color: #ce1e65; }
+.color11 { color: #725722; }
+.color12 { color: #8f8332; }
+.color13 { color: #f4f077; }
+.color14 { color: #c0ad8f; }
+.color15 { color: #91cb74; }
+.color16 { color: #0ba3c3; }
+.color17 { color: #2f343b; }
+.color18 { color: #676767; } 
+.color19 { color: #b5b5b5; }
+.color20 { color: #222222; }
 
 
 
