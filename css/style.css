@@ -28,11 +28,11 @@
 
 /** COLORS **/
 .bgColor1 { background-color: #0a345e; }
-.bgColor2 { background-color: #00a2c2; }
-.bgColor3 { background-color: #9d72af; }
+.bgColor2 { background-color: #00a2c2; } /* saas */
+.bgColor3 { background-color: #9d72af; } /* mkt-digital */
 .bgColor4 { background-color: #3cb185; }
 .bgColor5 { background-color: #faaa5c; }
-.bgColor6 { background-color: #f0545e; }
+.bgColor6 { background-color: #f0545e; } /* remanescentes */
 .bgColor7 { background-color: #2884b0; }
 .bgColor8 { background-color: #5b469b; }
 .bgColor9 { background-color: #9c69ac; }
@@ -49,11 +49,11 @@
 .bgColor20 { background-color: #222222; }
  
 .color1 { color: #0a345e; }
-.color2 { color: #00a2c2; }
-.color3 { color: #9d72af; }
+.color2 { color: #00a2c2; } /* saas */
+.color3 { color: #9d72af; } /* mkt-digital */
 .color4 { color: #3cb185; }
 .color5 { color: #faaa5c; }
-.color6 { color: #f0545e; }
+.color6 { color: #f0545e; } /* remanescentes */
 .color7 { color: #2884b0; }
 .color8 { color: #5b469b; }
 .color9 { color: #9c69ac; }
@@ -70,6 +70,12 @@
 .color20 { color: #222222; }
 
 
+/** CARDS **/
+.card1 { max-height: 120px; }
+#cards .card1 img { margin-left: -15px; border-radius: 2px; height: 120px; }
+#cards .card1 a { margin-right: 15px; margin-top: 10px; }
+#cards .card1 p { margin-top: 30px; }
+
 
 @media only screen and (min-width: 1200px) {
 
@@ -79,9 +85,13 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 990px) {	
 
-
+  #cards .card1 p { margin-top: 12px !important; }
 }
 @media only screen and (max-width: 767px) {	
-
+  #cards .card1 p { margin-top: 24px !important; }
+}
+  
+@media only screen and (max-width: 642px) { 
+  #cards .card1 p { margin-top: -25px !important; }
 }
   

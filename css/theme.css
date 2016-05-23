@@ -6,6 +6,7 @@ body { background: #fff; color: #444; font: 16px/1.5 "lato", Helvetica, Arial, s
 a,
 a:visited { color: #888; }
 
+
 a:hover,
 a:focus { color: #000; }
 
@@ -55,6 +56,11 @@ a:focus { color: #000; }
 #buttons .menu-marcas .remanescentes:hover h2 { margin-top: 16px; }
 
 #buttons .menu-marcas h2, #buttons .menu-marcas li { color: #fff; }
+
+/** CARDS **/
+.card-tipo1 img { width: 100%; }
+
+
 
 
 
